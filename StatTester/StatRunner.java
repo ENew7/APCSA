@@ -1,3 +1,5 @@
+package StatTester;
+
 
 /**
  * Lab 906::Find Mean Median and Mode
@@ -10,5 +12,11 @@ public class StatRunner{
     
     public static void main(){
         StatTester st = new StatTester();
+        st.loadArray();
+        st.printArray();
+        st.getSum();
+        st.getMean();
+        st.getMedian();
+        st.getMode();
     }
 }

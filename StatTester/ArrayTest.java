@@ -1,3 +1,5 @@
+package StatTester;
+
 
 /**
  * Write a description of class ArrayTest here.
